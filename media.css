@@ -1,0 +1,105 @@
+@media (min-width:320px){
+
+    .mother{
+        
+     margin: 0px;
+     padding: 8px;
+     
+     
+    
+    }
+    .head{
+        text-align:center;
+        letter-spacing: .25px;
+        word-spacing: .25px;
+        
+    }
+    input:hover{
+   transform: scale(1.03);
+   background-color: black;
+   
+}
+    #cruds{
+        font-size: 50px;
+        
+    }
+    #product{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+   }
+   
+   .tbody{
+    margin: 10px 5px;
+    padding: 20px;
+}
+.price input{
+    width: 100%;
+}
+.title_category{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#search_title,#search_category{
+    width: 40%;
+    height: 40px;
+    letter-spacing: .5px;
+    word-spacing: .5px;
+    line-height: 18px;
+}
+.table{
+    overflow: auto;
+  
+}
+.table table{
+    width: 800px;
+}
+
+
+
+    
+}
+
+@media (min-width:768px){
+
+ .price input{
+     width: 45%;
+ }
+ .counte input{
+    width: 45%;
+ }
+ 
+
+
+}
+
+@media (min-width:768px){
+
+ .price input{
+     width: 25%;
+ }
+ .counte input{
+    width: 45%;
+ }
+
+
+}
+
+@media (min-width:1024px){
+    .mother{
+        overflow: hidden;
+        margin: 30px 40px;
+    }
+
+ .price input{
+     width: 25%;
+ }
+ .counte input{
+    width: 100%;
+ }
+ .table table{
+    width: 100%;
+ }
+}
